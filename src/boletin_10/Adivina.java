@@ -38,11 +38,11 @@ while(numeroIntentos<1 || numeroIntentos>50);
             intento++;
             if(numero<adivinarNumero){
                 System.out.println(intento);
-              JOptionPane.showMessageDialog(null,"El número es más alto");
+              JOptionPane.showMessageDialog(null,"El número es más alto. Te quedan " + (numeroIntentos - intento) + " intentos");
             }
             else if(numero>adivinarNumero){
                 System.out.println(intento);
-              JOptionPane.showMessageDialog(null,"El número es más bajo");
+              JOptionPane.showMessageDialog(null,"El número es más bajo. Te quedan " + (numeroIntentos - intento) + " intentos");
 
             }
             else{
