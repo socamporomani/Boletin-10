@@ -53,12 +53,5 @@ while(numeroIntentos<1 || numeroIntentos>50);
             
 } while(numero!=adivinarNumero && intento!=numeroIntentos);
 
-//        for(numero=0;numero==adivinarNumero;intentos++){
- //        numero=Byte.parseByte(JOptionPane.showInputDialog("Introduce numero entre el 1 y el 50","Jugador2"));
-
-    //    }
     }
-    
-    
-   
-}
+    }
